@@ -5,7 +5,7 @@ class ApiRequest {
 
   public void checkout() {
     ...
-    Fuel.post("https://informalreport.api.dev/", params, headers);
+    Fuel.post(Configs.API_URL, params, headers);
     ...
   }
   public void updateCart() {
